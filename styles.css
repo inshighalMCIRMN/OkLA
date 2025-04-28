@@ -1,6 +1,6 @@
 body {
   font-family: 'Tajawal', sans-serif;
-  background-image: url('images/okla.png');
+  background-image: url('images/image.jpg');
   background-size: cover;
   background-position: center;
   background-color: transparent;
@@ -13,7 +13,7 @@ body {
   color: #0f0e0a;
   overflow-x: hidden;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body::before {
@@ -39,7 +39,7 @@ body::before {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   transition: background-position 0.5s ease, transform 0.2s ease;
   z-index: 100; /* للتأكد من ظهوره فوق العناصر الأخرى */
 }
@@ -110,7 +110,7 @@ h1 {
 .protein-options button {
   margin: 10px;
   padding: 12px 25px;
-  font-size: 16px;
+  font-size: 17px;
   cursor: pointer;
   background: linear-gradient(45deg, #FFB74D, #F57C00, #FFB74D);
   background-size: 200%;
@@ -339,16 +339,17 @@ h1 {
   line-height: 1.6;
   position: relative;
   border: 2px dashed #8D5524;
-  color: #22201b;
+  color: #f6fafa;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
 
 /* تذييل الصفحة */
 .page-footer {
   background: linear-gradient(to right, #2E7D32, #1B5E20);
   padding: 10px;
   text-align: center;
-  color: white;
+  color: rgb(24, 9, 9);
   position: relative;
   bottom: 0;
   width: 100%;
@@ -400,6 +401,7 @@ h1 {
   }
 
   .back-button {
+    background: rgba(255, 248, 225, 0.1);
     top: 15px;
     left: 15px;
     padding: 8px 15px;
