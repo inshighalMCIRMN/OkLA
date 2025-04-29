@@ -18,14 +18,14 @@
     </div>
     <div style="text-align: center; margin-top: 50px;">
       <input type="text" id="searchInput" placeholder="ابحث في اليوتيوب" style="padding: 10px; font-size: 18px; width: 60%;">
-      <button onclick="searchYouTube()" style="padding: 10px 20px; font-size: 18px;">ابحث عن وصفة  </button>
+      <button onclick="searchYouTube()" style="padding: 10px 20px; font-size: 18px;">ابحث في قناة أم وليد  </button>
     </div>
     
     <script>
       function searchYouTube() {
         var query = document.getElementById("searchInput").value;
         if(query.trim() !== "") {
-          var url = "https://www.youtube.com/results?search_query=" + encodeURIComponent(query);
+          var url = "https://www.youtube.com/results?search_query=" + encodeURIComponent(query + " channel:@OumWalidcuisine");
           window.open(url, "_blank"); // تفتح النتائج في تبويب جديد
         }
       }
